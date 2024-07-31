@@ -1,0 +1,58 @@
+nav{
+    background-color:  #d9eff7;
+    display: grid;
+    grid-template-columns: 1fr 17fr 5fr;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    font-size: 14px;
+    max-height: 86px;
+}
+
+nav button{
+    border: none;
+    background-color:  #d9eff7;
+}
+
+
+
+.icon-menu{
+    padding:10px;
+    display: grid;
+    align-items: center;
+    justify-content: end;
+
+   
+}
+
+.logo{
+    padding: 10px;
+    display: grid;
+    align-items: center;
+}
+
+.logo img{
+    width: 12%;
+}
+
+.contenedor-TUPA{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor-TUPA-1{
+    border-right: 2px solid rgba(29, 27, 32, 0.35);
+    padding: 10px;
+
+}
+
+
+.contenedor-TUPA-2{
+    padding: 10px;
+    margin: 0px;
+}
+

@@ -1,0 +1,92 @@
+
+
+.contenedor-chat{
+    position: sticky;
+    bottom: 0px;
+    width: 100%;
+    background: white;
+}
+
+.contenedor-chat-bot{
+    /* width: 80%; */
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 18fr 1fr;
+    justify-content: center;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+
+.icon-actualizar{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-actualizar button{
+    border: none;
+    background-color: white;
+}
+
+.contenedor-consultar{
+    display: grid;
+    align-items: center;
+    background-color:  #d9eff7;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.contenedor-input{
+    display: grid;
+    gap: 2px;
+    align-items: center;
+    grid-template-columns: 96% 4%;
+    background-color:  #d9eff7;
+
+}
+
+
+.contenedor-input button{
+    border: none;
+    background-color: #d9eff7;
+}
+
+
+.textarea-consulta{
+    justify-content: start;
+    border: none;
+    background-color:#d9eff7 ;
+    height: 20px;
+
+    flex-grow: 1;
+
+    border-radius: 5px;
+    resize: none;
+    outline: none;
+    font-size: 1em;
+
+
+}
+.icono-microfono{
+    display: grid;
+    justify-content: center;
+
+}
+
+
+
+
+.icon-enviar{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-enviar button{
+    border: none;
+    background-color: white;
+}
+
+
